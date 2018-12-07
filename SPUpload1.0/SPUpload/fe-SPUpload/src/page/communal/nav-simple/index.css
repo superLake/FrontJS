@@ -1,0 +1,19 @@
+/*
+* @Author: sznews
+* @Date:   2018-11-12 10:22:39
+* @Last Modified by:   sznews
+* @Last Modified time: 2018-11-20 18:15:11
+*/
+.header{
+	width: 1920px;
+	height:50px;
+	background-color: #fff;
+}
+.header .app-title{
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #07cbc9;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%=require('html-loader!./layout/layout-common.html')%>
+    <title><%=htmlWebpackPlugin.options.title%> -JTPic集团图片上传</title>
+    <!-- <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- jquery文件 -->
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- <div class="header">
+        <div class="app-title">JTPic</div>
+    </div> -->
+    <%=require('html-loader!./layout/nav-simple.html') %>
+    <div class="page-wrap">
+        <div class="w">
+            <div class="container">
+                <div class="box-title"><span>请登录</span></div>
+                <div class="box">
+                    <div class="textbox">
+                        <label class="icon-label" for="username"><span class="fa fa-user icon"></span></label>
+                        <input type="text" id="username" class='user-content' placeholder="请输入用户名" />
+                    </div>
+                    <div class="textbox">
+                        <label class="icon-label" for="password"><span class="fa fa-lock icon"></span></label>
+                        <input type="text" id="password" class='user-content' placeholder="请输入密码" />
+                    </div>
+                    <div class="textbox">
+                        <label class="icon-label" for="password"><span class="fa fa-check icon"></span></label>
+                        <input type="text" id="scode" class='user-content' placeholder="请输入验证码" />
+                        <canvas class="scode-pic"></canvas>
+                    </div>
+                    <div class="textbox">
+                        <button class="btn btn-submit" id='submit'>提交</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <%=require('html-loader!./layout/footer.html')%>
+</body>
+
+</html>

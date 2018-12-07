@@ -1,0 +1,89 @@
+/*.header{
+	width: 1920px;
+	height:50px;
+	background-color: #09cbc7;
+}
+.header .app-title{
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}*/
+.page-wrap{
+	padding: 40px 0;
+	background: #18dcda;
+}
+.container{
+	position: relative;
+	margin: 0 auto;
+	width:400px;
+	background: #fff;
+}
+.container .box{
+	padding:20px;
+}
+.box-title{
+	/*display: inline-block;*/
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #666;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+	/*margin-left: 166px;*/
+}
+.container .textbox{ 
+	position: relative;
+	margin-bottom: 20px;
+}
+.container .textbox .icon-label{
+	display: inline-block;
+	width: 40px;
+	line-height:36px;
+	border-right:1px solid #bdbdbd;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	position: absolute;
+	left:1px;
+	top:1px;
+	bottom: 1px;
+}
+.icon{
+	color: #666;
+	margin: 0 auto;
+	position: absolute;
+	top:12px;
+	left: 15px;
+}
+.textbox .user-content{
+	padding:10px 0 10px 50px;
+	width: 308px;
+	height: 18px;
+	line-height: 18px;
+	font-size:15px;
+	border:1px solid #bdbdbd;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	outline: none;
+}
+/*验证码输入框*/
+.textbox #scode{
+	width: 190px;
+}
+/*验证码图片*/
+.textbox .scode-pic{
+	/*display: block;*/
+	width: 115px;
+	height:38px;
+	float:right;
+	border:1px solid #ccc;
+	border-radius: 4px;
+}
+.btn-submit{
+	width:100%;
+	padding:2px 0;
+	text-align:center;
+	font-size:20px;
+}

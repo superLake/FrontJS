@@ -1,0 +1,22 @@
+/*
+* @Author: sznews
+* @Date:   2018-11-09 17:58:36
+* @Last Modified by:   sznews
+* @Last Modified time: 2018-11-09 17:59:40
+*/
+.footer{
+	padding-bottom:10px 
+}
+.footer .links{
+	text-align: center;
+	color:#666;
+	line-height:30px;
+}
+.footer .links .link{
+	padding:0 10px;
+}
+.copyright{
+	text-align:center;
+	color:#666;
+	line-height:30px
+}
